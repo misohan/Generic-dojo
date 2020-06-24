@@ -12,6 +12,7 @@ public class Main {
 
 
         students.add(student);
+        students1.add(student);
 
         RecentlyUsedList recentlyUsedList = new RecentlyUsedList();
 
@@ -19,17 +20,10 @@ public class Main {
         recentlyUsedList.addObjectList(bool);
         recentlyUsedList.addObjectList(name);
         recentlyUsedList.addObjectList(student);
-
-
-
+        recentlyUsedList.addObjectList(students);
+        recentlyUsedList.addObjectList(students1);
 
         recentlyUsedList.getAllElements(recentlyUsedList.getListOfElements());
-
-
-
-
-
-
 
     }
 }
