@@ -17,11 +17,13 @@ public class Main {
 
         recentlyUsedList.addObjectList(age);
         recentlyUsedList.addObjectList(bool);
+        recentlyUsedList.addObjectList(name);
+        recentlyUsedList.addObjectList(student);
 
 
 
 
-        recentlyUsedList.removeDuplicteElements(recentlyUsedList.getListOfElements());
+        recentlyUsedList.getAllElements(recentlyUsedList.getListOfElements());
 
 
 

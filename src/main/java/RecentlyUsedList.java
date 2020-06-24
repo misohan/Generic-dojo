@@ -15,19 +15,13 @@ public class RecentlyUsedList<E> {
         return listOfElements;
     }
 
-    public void removeDuplicteElements(List<E> listOfElements){
+    public void getAllElements(List<E> listOfElements){
 
         Iterator<E> eIterator = listOfElements.iterator();
-        int secondElementIndex = 0;
+
         while(eIterator.hasNext()){
             E currentElement = eIterator.next();
             System.out.println(currentElement);
-            if(currentElement.getClass()== listOfElements.get(1).getClass()){
-                listOfElements.remove(eIterator);
-                System.out.println("Element removed");
-            } else{
-                System.out.println("No same element found so far");
-                secondElementIndex++;
 
             }
 
@@ -36,4 +30,4 @@ public class RecentlyUsedList<E> {
     }
 
 
-}
+
